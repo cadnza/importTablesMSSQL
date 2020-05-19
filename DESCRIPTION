@@ -1,7 +1,7 @@
 Package: importTablesMSSQL
 Type: Package
 Title: Simple table importer for Microsoft SQL Server
-Version: 0.1.0
+Version: 1.0
 Author: Jonathan Dayley [aut, cre]
 Description: Very simple indeed. Specify your target tables, and importTablesMSSQL goes and gets them.
 License: CC0
