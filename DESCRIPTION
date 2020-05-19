@@ -1,4 +1,6 @@
 Package: importTablesMSSQL
+Imports:
+    DBI
 Type: Package
 Title: Simple table importer for Microsoft SQL Server
 Version: 1.0
