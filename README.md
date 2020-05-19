@@ -4,7 +4,7 @@ Simple R package to import tables from Microsoft SQL Server.
 
 ## Description
 
-Really a very simple package. `importTablesMSSQL` includes one function of the same name, and it imports tables from SQL Server into the R global environment. It's intended for multi-table pulls in such cases that render individual queries unwieldy, but it pulls single tables just fine, too.
+Really a very simple package. `importTablesMSSQL` includes one function of the same name, and it imports tables from SQL Server into the R global environment using the `DBI` package. It's intended for multi-table pulls in such cases that render individual queries unwieldy, but it pulls single tables just fine, too.
 
 ## Installation
 
