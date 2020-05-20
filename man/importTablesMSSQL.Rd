@@ -20,7 +20,7 @@ importTablesMSSQL(
   A string or vector of strings representing tables to be pulled. Accepts table names formatted as either \code{database.schema.table}, \code{schema.table}, or \code{table}. If \code{tables = NA} (the default), all tables will be pulled.
   }
   \item{refresh}{
-  Logical value representing whether to pull tables that have already been pulled previously. \code{FALSE} by default to prevent unnecessary refreshing. For convenience, the \code{database.manifest} variable lists all tables on the target server as they appear in the global environment.
+  Logical value representing whether to pull tables that have already been pulled previously. \code{FALSE} by default to prevent unnecessary refreshing. For convenience, the \code{manifest.database} variable lists all tables on the target server as they appear in the global environment.
   }
   \item{silent}{
   Logical value representing whether to display the progress bar. \code{FALSE} by default. Pulling progress is calculated on number of cells pulled against total number of cells expected.
@@ -36,7 +36,7 @@ importTablesMSSQL(
 	Each target table as a dataframe, named \code{database.schema.table}
 	}
 	\item{
-	A character vector of the names of all imported tables, named \code{database.manifest}
+	A character vector of the names of all imported tables, named \code{manifest.database}
 	}
 }
 }
@@ -58,7 +58,7 @@ importTablesMSSQL(
 \examples{
 # Clear environment except for imported tables ----
 tryCatch(
-	expr=rm(list=ls()[!ls()\%in\%AdventureWorks.manifest]),
+	expr=rm(list=ls()[!ls()\%in\%manifest.AdventureWorks]),
 	error=function(x)invisible()
 )
 
