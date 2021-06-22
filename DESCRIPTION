@@ -3,7 +3,7 @@ Imports:
     DBI
 Type: Package
 Title: Simple table importer for Microsoft SQL Server
-Version: 1.0
+Version: 1.0.0
 Authors@R: person("Jonathan","Dayley",email="jonathandayley@gmail.com",role=c("aut","cre"))
 Description: Very simple indeed. Specify your target tables, and importTablesMSSQL goes and gets them.
 License: CC0
