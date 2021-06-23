@@ -44,7 +44,7 @@ importTablesMSSQL(
 %% ~put references to the literature/web site here ~
 }
 \author{
-\href{https://www.linkedin.com/in/jonathan-dayley-371398102}{Jonathan Dayley}
+\href{https://github.com/cadnza}{Jon Dayley}
 }
 \note{
 %%  ~~further notes~~
